@@ -1,0 +1,32 @@
+{
+  "name": "rxidb",
+  "version": "1.0.0",
+  "description": "Little reactive wrapper library around IndexedDB",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivererxleben/RxIDB.git"
+  },
+  "keywords": [
+    "rxjs",
+    "indexeddb",
+    "wrapper",
+    "lib"
+  ],
+  "author": "oliver.erxleben@me.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olivererxleben/RxIDB/issues"
+  },
+  "homepage": "https://github.com/olivererxleben/RxIDB#readme",
+  "devDependencies": {
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.3",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.2"
+  }
+}
